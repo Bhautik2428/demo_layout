@@ -102,6 +102,25 @@
     margin-left: -20px;
   }
 
+
+  @media only screen and (max-width: 2560px) and (min-width: 1272px)  {
+
+    .main_body_nav{
+      position: absolute;
+      top: 230px;
+      padding-top : 80px;
+      left: 47%;   
+    }        
+
+    #main_body_nav_list{
+      color: rgb(1, 1, 1);
+      font-size: 17px;
+      margin: 17px;
+    }
+
+  }
+
+
   @media only screen and (max-width: 1440px) and (min-width: 1023px)  {
     .main_body_nav{
       position: absolute;
@@ -150,17 +169,181 @@
   }
 
   @media only screen and (max-width: 425px) and (min-width: 375px)  {
+    .heder_logo{
+      width: 50px;
+      height: 60px;
+      margin-left: 40%;
+    }
+  
+    .heder_logo_txt{
+      margin-left: 60.5%;
+      padding-top: -30px;
+      margin-top: -50PX;
+    }
+    
+    .heder_nav_logo{
+      margin-top: 165px;
+      margin-left: 20px;
+    }
+
     .main_body_nav{
       position: absolute;
       top: 400px;
-      padding-top : 280px;
-      left: 10px;   
+      padding-top : 185px;
+      left: 60px;   
     }        
     
     #main_body_nav_list{
       color: rgb(1, 1, 1);
       font-size: 6px;
-      margin: 15px;
+      margin: 9px;
+    }
+
+    .main_left_1{
+      font-size: small;  
     }
     
+
+    .write_right{
+      margin-left: 15%;
+      margin-top: 15%;
+      color: yellow;
+    }
+    
+    .write_right_list1 {
+      color: yellow;
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+  
+    .write_right_list2 , .write_right_list3{
+      color: yellow;
+      margin-top: 20px;
+      margin-left: 50px;
+    }
+    
+    .write_right_inp{
+      margin-left: 2%;
+    }
+
+    .write_right_btn{
+      margin-left: 88%;
+      margin-top: 3px;  
+    }
+
+  }
+
+
+  @media only screen and (max-width: 699px) and (min-width: 425PX)  {
+    
+    .heder_logo{
+      width: 50px;
+      height: 60px;
+      margin-left: 40%;
+    }
+  
+    .heder_logo_txt{
+      margin-left: 60.5%;
+      padding-top: -30px;
+      margin-top: -50PX;
+    }
+    
+    .heder_nav_logo{
+      margin-top: 165px;
+      margin-left: 20px;
+    }
+
+    .main_body_nav{
+      position: absolute;
+      top: 400px;
+      padding-top : 240px;
+      left: 60px;   
+    }        
+    
+    #main_body_nav_list{
+      color: rgb(1, 1, 1);
+      font-size: 6px;
+      margin: 10px;
+    }
+
+    .write_right{
+      margin-left: 50%;
+      margin-top: 15%;
+      color: yellow;
+    }
+    
+    .write_right_list1 {
+      color: yellow;
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+  
+    .write_right_list2 , .write_right_list3{
+      color: yellow;
+      margin-top: 20px;
+      margin-left: 50px;
+    }
+
+  }
+
+  @media only screen and (max-width: 375px) and (min-width: 320PX){
+
+    .heder_logo{
+      width: 50px;
+      height: 60px;
+      margin-left: 30%;
+    }
+  
+    .heder_logo_txt{
+      margin-left: 60.5%;
+      padding-top: -30px;
+      margin-top: -50PX;
+    }
+    
+    .heder_nav_logo{
+      margin-top: 165px;
+      margin-left: 20px;
+    }
+
+    .main_body_nav{
+      top: 290px;
+      padding-top : 240px;
+      left: 50px;   
+    }        
+    
+    #main_body_nav_list{
+      color: rgb(1, 1, 1);
+      font-size: 6px;
+      margin: 5px;
+    }
+
+    .write_right{
+      margin-left: 30%;
+      margin-top: 15%;
+      color: yellow;
+    }
+    
+    .write_right_list1 {
+      color: yellow;
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+  
+    .write_right_list2 , .write_right_list3{
+      color: yellow;
+      margin-top: 20px;
+      margin-left: 50px;
+    }
+
+    .write_right_inp{
+      margin-left: 2%;
+      width: 70%;
+      height: 5%;
+    }
+
+    .write_right_btn{
+      margin-left: 88%;
+      margin-top: 3px;  
+    }
+
   }
