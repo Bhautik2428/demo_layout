@@ -1,0 +1,166 @@
+  body{
+    background-image: url("/img/ai-generated-8193467_1280.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1px;
+  }
+
+  .new_list{
+    display: flex;
+    justify-content: center;    
+  }
+
+  .heder_logo{
+    width: 50px;
+    height: 60px;
+    margin-left: 75%;
+  }
+
+  .heder_logo_txt{
+    margin-left: 80.5%;
+    padding-top: -50px;
+  }
+
+  .heder_nav_logo{
+    margin-top: 165px;
+  }
+
+  .main_body_nav{
+    position: absolute;
+    top: 240px;
+    padding-top : 75px;
+    left: 660px;   
+  }        
+
+  #main_body_nav_list{
+    color: rgb(1, 1, 1);
+    font-size: 20px;
+    margin: 17px;
+  }
+
+  /* left side css */
+
+  .main_left{
+    color: beige; 
+    background-color: rgba(6, 6, 92, 0.548);
+  }
+
+  .main_left_1{
+    font-size: small;
+    
+  }
+
+  .main_left_2{
+    font-size: 15px;
+  }
+
+  /* right side css */
+
+  .write_right{
+    margin-left: 100%;
+    margin-top: 15%;
+    color: yellow;
+  }
+
+  .write_right_inp{
+    background-color: rgba(0, 0, 255, 0.158);
+    color: white;
+    width: 300px;
+    height: 30px;
+    margin-left: 50px;
+    position: absolute;
+  }
+  .write_right_btn{
+    position: relative;
+    background-color: rgba(0, 0, 255, 0.158);
+    color: white;
+    width: 50px;
+    height: 30px;
+    margin-left: 350px;
+    
+  }
+
+  ::placeholder{
+    color: aliceblue;
+  }
+
+  .write_right_list1 {
+    color: yellow;
+    margin-top: 100px;
+    margin-left: -20px;
+  }
+
+  .write_right_list2 {
+    color: yellow;
+    margin-top: 20px;
+    margin-left: -20px;
+  }
+
+  .write_right_list3 {
+    color: yellow;
+    margin-top: 20px;
+    margin-left: -20px;
+  }
+
+  @media only screen and (max-width: 1440px) and (min-width: 1023px)  {
+    .main_body_nav{
+      position: absolute;
+      top: 230px;
+      padding-top : 70px;
+      left: 620px;   
+    }        
+
+    #main_body_nav_list{
+      color: rgb(1, 1, 1);
+      font-size: 17px;
+      margin: 17px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 1024px) and (min-width: 767px)  {
+    .main_body_nav{
+      position: absolute;
+      top: 230px;
+      padding-top : 65px;
+      left: 420px;   
+    }        
+    
+    #main_body_nav_list{
+      color: rgb(1, 1, 1);
+      font-size: 13px;
+      margin: 17px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 768px) and (min-width: 424px)  {
+    .main_body_nav{
+      position: absolute;
+      top: 220px;
+      padding-top : 65px;
+      left: 300px;   
+    }        
+    
+    #main_body_nav_list{
+      color: rgb(1, 1, 1);
+      font-size: 10px;
+      margin: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 425px) and (min-width: 375px)  {
+    .main_body_nav{
+      position: absolute;
+      top: 400px;
+      padding-top : 280px;
+      left: 10px;   
+    }        
+    
+    #main_body_nav_list{
+      color: rgb(1, 1, 1);
+      font-size: 6px;
+      margin: 15px;
+    }
+    
+  }
